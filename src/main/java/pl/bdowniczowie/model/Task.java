@@ -25,7 +25,6 @@ public class Task {
     @NotNull(message = "Czy wykonane musi być")
     private boolean done;
 
-    private LocalDateTime detline;
 
     public Task() {
     }
@@ -59,13 +58,6 @@ public class Task {
         this.done = done;
     }
 
-    public LocalDateTime getDetline() {
-        return detline;
-    }
-
-    public void setDetline(LocalDateTime detline) {
-        this.detline = detline;
-    }
 
     @Override
     public String toString() {
